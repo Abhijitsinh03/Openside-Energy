@@ -1,0 +1,176 @@
+/*
+Theme Name: Twenty Twenty-Three
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: twentytwentythree
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+*/
+.wp-site-blocks{
+	padding: 0;
+}
+.Header-title_group{
+	background: url(http://localhost/openside/wp-content/uploads/2023/03/Asset-25.png);
+	background-repeat: no-repeat;
+}
+.Header-title_group .Header_title-text{
+	font-size: 36px;
+	letter-spacing: 2px;
+	line-height: 45px;
+	color: #00696a;
+	font-weight: 700;
+	font-family: "Poppins";
+	text-align: center;
+}
+.Header-title_group p{
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #004f4d;
+	font-weight: 400;
+	font-family: "Poppins";
+	text-align: center;
+}
+.our_img-group {
+	position: relative;
+}
+.bottomright {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-size: 18px;
+}
+.product_title{
+	font-size: 36px;
+	line-height: 45px;
+	color: #f7f7e7;
+	font-weight: 700;
+}
+.product_text{
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	color: #f7f7e7;
+	font-weight: 400;
+}
+.product_main-class .row:nth-child(odd) div.product-info {
+	float: right;
+	order: 2;
+	background-color: #89bb9d;
+}
+.product_main-class .row:nth-child(odd) div.product-image {
+	float: left;
+	order: 1;
+}
+.product_main-class .row:nth-child(even) div.product-info {
+	float: left;
+	order: 1;
+	background-color: #003332;
+}
+.product_main-class .row:nth-child(even) div.product-image {
+	float: right;
+	order: 2;
+}
+
+/*Slick Slider CSS Start*/
+/* Slider */
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.logo-carousel {
+	overflow: inherit;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+	display: table;
+	content: '';
+}
+
+.slick-track::after {
+	clear: both;
+}
+
+.slick-track {
+	padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+	visibility: hidden;
+}
+
+.slick-slide.slick-loading img {
+	display: none;
+}
+
+.slick-slide.dragging img {
+	pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+	visibility: hidden;
+}
+
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
+	color: #fff;
+	filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+	border: none;
+	width: 2rem;
+	height: 1.5rem;
+	text-indent: -10000px;
+	margin-top: -16px;
+	z-index: 99;
+}
+
+.slick-arrow.slick-next {
+	right: -40px;
+	transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+	left: -40px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.slick-arrow {
+		width: 1rem;
+		height: 1rem;
+	}
+}
+
+.row {
+	overflow: hidden;
+}  
+/*Slick Slider CSS End*/
+
+/*Footer Section CSS*/
+.page-list_footer{
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 400;
+	list-style: none;
+	padding: 0;
+}
+.page-list_footer a,.page-list_footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+/*Footer Section CSS End*/
